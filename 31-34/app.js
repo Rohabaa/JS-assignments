@@ -81,4 +81,70 @@
 //  var pastdays = Math.floor(diff/(1000*60*60*24))
 //  document.write(pastdays + " have been past since 1st ramadan , 2015.")
 //  qno10
- var date = 
+//  var date = new Date("5 march 2015")
+//  var firstdate = new Date("1 jan 2015")
+// //  console.log(date);
+// //  console.log(firstdate);
+// var result = date.getTime() - firstdate.getTime()
+// // console.log(result);
+// var seconds = result /(1000 )
+// console.log(seconds);
+
+
+//     // Reference date (Unix epoch: Jan 1, 1970, 00:00:00 UTC)
+//     var referenceDate = new Date("January 1, 1970 00:00:00 GMT");
+
+//     // Beginning of 2015
+//     var start2015 = new Date("January 1, 2015 00:00:00 GMT");
+
+//     // Difference in milliseconds
+//     var diffMilliseconds = start2015.getTime() - referenceDate.getTime();
+
+//     // Convert to seconds
+//     var diffSeconds = diffMilliseconds / 1000;
+// console.log(diffSeconds);
+
+//     // Display in browser
+//     // document.write("Seconds elapsed between reference date and beginning of 2015: " + diffSeconds);
+
+ 
+//  qno11
+// var date = new Date ()
+// document.write("current date " + date + "<br>"+"<br>")
+// var hours = date.getHours()
+// document.write("current hours "+ hours + "<br> <br>")
+// date.setHours(hours+1)
+// document.write("1 hour ahead "+ date )
+
+// qno12
+// var date = new Date ()
+// alert("current date "+ date)
+// var year = date.getFullYear()
+// // console.log(year);
+// date.setFullYear(year -100)
+// console.log(date);
+
+// qno13
+// var age =prompt("enter your age")
+// var date =new Date().getFullYear()
+// // console.log(date);
+// var result = date-age
+// console.log(result);
+
+// qno14
+// var date = new Date()
+// customerName = "ABC"
+// var currentmonth = date.getMonth()
+// var units = 370
+// var chargesPerUnit = 15.75
+// var netAmountPayable = (units * chargesPerUnit).toFixed(2);
+//    var latePaymentSurcharge = 500.00;
+//       var grossAmountPayable = (parseFloat(netAmountPayable) + latePaymentSurcharge).toFixed(2);
+// document.write("<b>Customer Name:</b> " + customerName + "<br>");
+//     document.write("<b>Current Month:</b> " + currentmonth + "<br>");
+//     document.write("<b>Number of Units:</b> " + units + "<br>");
+//     document.write("<b>Charges per Unit:</b> " + Math.floor(chargesPerUnit.toFixed(2)) + "<br><br>");
+
+//     document.write("<b>Net Amount Payable (within Due Date):</b> " + Math.floor(netAmountPayable) + "<br>");
+//     document.write("<b>Late Payment Surcharge:</b> " + Math.floor(latePaymentSurcharge.toFixed(2)) + "<br>");
+//     document.write("<b>Gross Amount Payable (after Due Date):</b> " + Math.floor(grossAmountPayable) + "<br>");
