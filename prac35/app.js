@@ -57,6 +57,17 @@
 // }
 // num(9)
 
+// qno6
+// function factorial(n){
+//     var result = 1
+//     for(var   i=1 ; i<=n; i++){
+//      result *=i
+//     }
+//     return result
+// }
+// document.write(factorial(5))
+
+
 // qno7
 // function counting(start , end){
 // for (var i=start ;i<end ; i++ ){
@@ -69,12 +80,49 @@
 // counting(startingnum,endingnum)
 
 // qno8
-function hypotenus(base,perpendicular){
-var hypotenuss = (base * base) + (perpendicular * perpendicular)
-console.log(hypotenuss);
+// function calculator(x){
+//    var result =  x**2
+// //    return result
+// }
+// console.log(calculator(5));
 
-}
-var forbase = +prompt("enter base")
-var forperp = +prompt("enter perpendicular")
-hypotenus(forbase,forperp)
+// function calculatehyp(base,perp){
 
+//     function calculator(x){
+        
+//         return  x**2
+//      }
+//      var hypesquare = calculator(base)+calculator(perp)
+//      return hypesquare
+// }
+// console.log(calculatehyp(5,5));
+
+
+// qno9
+// function area(width,height){
+//   var Area = width*height
+//   console.log(Area);
+  
+// }
+// area(2,2)
+// var w = 4
+// var h = 4
+// area(w,h)
+ 
+  
+// qno11
+// function titlecase(){
+// var sentence = prompt("write any sentences")
+// var arraysen = sentence.split(" ")
+// // console.log(arraysen);
+// var titlecases  = [""]
+
+// for (var i=0 ; i<arraysen.length;i++){
+//     var firstchar = arraysen[i].slice(0,1).toUpperCase()
+//         var otherchar = arraysen[i].slice(1).toLowerCase()
+//         titlecases.push(firstchar+otherchar)
+// }
+// console.log(titlecases);
+// console.log(titlecases.join(" "));
+// }
+// titlecase()
