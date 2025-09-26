@@ -111,18 +111,25 @@
  
   
 // qno11
-// function titlecase(){
-// var sentence = prompt("write any sentences")
-// var arraysen = sentence.split(" ")
-// // console.log(arraysen);
-// var titlecases  = [""]
+function titlecase(){
+var sentence = prompt("write any sentences")
+if (sentence){
 
-// for (var i=0 ; i<arraysen.length;i++){
-//     var firstchar = arraysen[i].slice(0,1).toUpperCase()
-//         var otherchar = arraysen[i].slice(1).toLowerCase()
-//         titlecases.push(firstchar+otherchar)
-// }
-// console.log(titlecases);
-// console.log(titlecases.join(" "));
-// }
-// titlecase()
+    var arraysen = sentence.split(" ")
+// console.log(arraysen);
+var titlecases  = [""]
+
+for (var i=0 ; i<arraysen.length;i++){
+    var firstchar = arraysen[i].slice(0,1).toUpperCase()
+        var otherchar = arraysen[i].slice(1).toLowerCase()
+        titlecases.push(firstchar+otherchar)
+}
+console.log(titlecases);
+console.log(titlecases.join(" "));
+}else{
+    alert("empty string not allowed")
+}
+
+
+}
+titlecase()
