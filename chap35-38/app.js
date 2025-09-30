@@ -111,25 +111,65 @@
  
   
 // qno11
-function titlecase(){
-var sentence = prompt("write any sentences")
-if (sentence){
+// function titlecase(){
+// var sentence = prompt("write any sentences")
+// if (sentence){
 
-    var arraysen = sentence.split(" ")
-// console.log(arraysen);
-var titlecases  = [""]
+//     var arraysen = sentence.split(" ")
+// // console.log(arraysen);
+// var titlecases  = [""]
 
-for (var i=0 ; i<arraysen.length;i++){
-    var firstchar = arraysen[i].slice(0,1).toUpperCase()
-        var otherchar = arraysen[i].slice(1).toLowerCase()
-        titlecases.push(firstchar+otherchar)
+// for (var i=0 ; i<arraysen.length;i++){
+//     var firstchar = arraysen[i].slice(0,1).toUpperCase()
+//         var otherchar = arraysen[i].slice(1).toLowerCase()
+//         titlecases.push(firstchar+otherchar)
+// }
+// console.log(titlecases);
+// console.log(titlecases.join(" "));
+// }else{
+//     alert("empty string not allowed")
+// }
+
+// ___________qno12
+
+// function findLongestWord(str) {
+//     let words = str.split(" ");
+//     let longestWord = "";
+
+//     for (let i = 0; i < words.length; i++) {
+//         if (words[i].length > longestWord.length) {
+//             longestWord = words[i];
+//         }
+//     }
+
+//     return longestWord;
+// }
+
+// // Example usage:
+// let result = findLongestWord("Web Development Tutorial");
+// console.log("Longest word is: " + result);
+
+// ___________qno13
+function twoarguments(string,letter){
+    
 }
-console.log(titlecases);
-console.log(titlecases.join(" "));
-}else{
-    alert("empty string not allowed")
-}
 
 
-}
-titlecase()
+// }
+// titlecase()
+// _-__________________qno14
+// function calcCircumference(radius){
+//     var pievalue = 3.14
+//     var circumference = 2*pievalue*radius
+//     console.log(circumference.toFixed(2));
+    
+// }
+// calcCircumference(5)
+
+// function calcarea(radius){
+//     var pievalue = 3.14
+//     var area = pievalue*radius*radius
+//     console.log(area.toFixed(2));
+    
+// }
+// calcarea(5)
