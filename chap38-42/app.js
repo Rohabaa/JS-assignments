@@ -48,6 +48,15 @@
 // console.log(power); // Output: 625
 
 //  Qno 2
+// function leapyear(){
+//     var year = prompt("enter any year")
+//     if (year % 4 === 0 && year % 100 !== 0 || year % 4 === 0){
+//         alert(year +" its a leap year ")
+//     }else{
+//         alert(year+" its not a leap year")
+//     }
+// }
+// leapyear()
 // qno3
 // function first(a,b,c){
 //     var  S = ( a + b + c ) / 2
@@ -63,58 +72,66 @@
 //  var result = area(3,4,5)
 //  console.log(result);
 // qno4
-
-//  function average(chem,bio,phys){
-//     var avg = (chem+bio+phys)/3
-//     return  avg;
-// }
- 
-// function percentage(chem,bio,phys,totalmarks){
-//     var obtained = chem+ bio+ phys
-//     var total = totalmarks * 3;
-//     var percentage =   (obtained / total) * 100;
-//     return percentage;
-// }
- 
 // function main(){
+//     var bio = +prompt("enter your bio marks")
+//         var chem = +prompt("enter your chem marks")
+//     var phys = +prompt("enter your phys marks")
+//      var totalmarks = +prompt("enter your total marks")
+//     function average(){
+//      return ( bio + chem + phys) / 3
+//     }
+//     function percentage(){
+//         var obtainedmarks = bio + chem + phys
+//         return (obtainedmarks / totalmarks) * 100
+//     }
+//     console.log(average());
+//     console.log(percentage());
+//     return [average(), percentage()]
+// }
+// console.log(main());
 
-// var chem = prompt("eneter marks of chem")
-// var bio = prompt("eneter marks of bio")
-// var phys = prompt("eneter marks of phys")
-//  var avg = average(chem,bio,phys)
-//  var perc = percentage(chem,bio,phys,100)
-// console.log(avg.toFixed(2));
-// console.log(perc.toFixed(2));
+// _Qno5
+// function indexof(){
+//     var para = "my name is rohab majid khan "
+//     var index = para.indexOf("majid")
+//     console.log(index);
+    
+// }
+// indexof()
+//  qno 6
+function vowelss(characters){
+for ( var i=0; i<characters.length; i++){
+    var sentences = characters[i]
+    if(sentences==="a"&& sentences==="e" && sentences==="i"){
+        var result =  replace("")
+    }
+}
+}
+// qno7________
+// Qno8
+// function km(){
+//     var dis = 60
+ 
+//     function m(){
+//         var m = (dis * 1000)
+//         return m
+//     }
+//         function cm(){
+//         var cm = (dis * 10000)
+//         return cm;
+//     }
+
+//  function inches(){
+//         var inches = (dis * 39370.1)
+//         return inches;
+//     }
+//  function feet(){
+//         var feet = (dis * 3280.84)
+//         return feet;
+//     }
+// return [m(), cm(), inches(), feet()]
 
 // }
-// main()
+// console.log(km());
 
-// Function to calculate average
-// function average(m1, m2, m3) {
-//     return (m1 + m2 + m3) / 3;
-//   }
-  
-//   // Function to calculate percentage
-//   function percentage(m1, m2, m3, totalMarksPerSubject) {
-//     let obtained = m1 + m2 + m3;
-//     let total = totalMarksPerSubject * 3;
-//     return (obtained / total) * 100;
-//   }
-  
-//   // Main function
-//   function mainFunction() {
-//     let m1 = +prompt("Enter marks of subject 1:");
-//     let m2 = +prompt("Enter marks of subject 2:");
-//     let m3 = +prompt("Enter marks of subject 3:");
-  
-//     // Assuming each subject is out of 100 marks
-//     let avg = average(m1, m2, m3);
-//     let perc = percentage(m1, m2, m3, 100);
-  
-//     document.write(`Average Marks: ${avg.toFixed(2)}<br>`);
-//     document.write(`Percentage: ${perc.toFixed(2)}%`);
-//   }
-  
-//   // Call the main function
-//   mainFunction();
-  
+// Qno9
