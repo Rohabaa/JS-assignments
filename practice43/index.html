@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- on button -->
+    <button onclick=" greet('rohaba')">Click</button>
+    <!-- on link -->
+     <a href="JawaScript:void(0)" onclick="alert('hello')">link</a>
+     <a href="JawaScript:void(0)" onclick="greet('rohaba')">link</a>
+     <!-- for image 2 methods numb 1 -->
+      <img src="https://www.w3schools.com/js/pic_bulboff.gif"  alt=""
+      onmouseover="src='https://www.w3schools.com/js/pic_bulbon.gif'"
+      onmouseout="src='https://www.w3schools.com/js/pic_bulboff.gif'">
+      <!-- second method -->
+       <img src="https://www.w3schools.com/js/pic_bulboff.gif" 
+       onmouseover="on(this)"
+       onmouseout="off(this)"   
+         alt="">
+         <!-- for zoom -->
+         <img src="https://www.w3schools.com/js/pic_bulboff.gif" 
+         onmouseover="zoomin(this)"
+         onmouseout="zoomout(this)"   
+           alt="">
+           <!-- another example -->
+            <img src="/pic/Screenshot 2025-10-14 174811.png"  
+            onmouseover="https://i.pinimg.com/originals/65/5d/2d/655d2da400a648abca600766a89deead.gif"
+            onmouseout=""
+            alt="">
+    <script src="app.js"></script>
+</body>
+</html>
