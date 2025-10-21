@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+    #container {
+      background-image: url("/pic/background.gif"); /* apni image ka path yahan likho */
+      background-size: cover;      /* poori screen cover karega */
+      background-repeat: no-repeat;
+        height: 100vh;
+    width: 100%;
+    background-position: center;
+    }
+    .character1{
+    position:absolute;
+    bottom: 40px;
+    left: 40px;
+}
