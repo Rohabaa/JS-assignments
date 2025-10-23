@@ -6,6 +6,11 @@ function car(e){
 function caroff(e){
     e.src ="./pic/car.png"
 }
+// qno3
+function deleteRow() {
+  var row = document.getElementById("row1");
+  row.remove(); // poora row hata deta hai
+}
 // qno5
 var count = 0;
 
@@ -18,3 +23,4 @@ var count = 0;
       count = count - 1;
       document.getElementById("counter").innerHTML = count;
     }
+  
