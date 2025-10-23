@@ -12,8 +12,18 @@
     width: 100%;
     background-position: center;
     }
-    .character1{
+    .char{
     position:absolute;
-    bottom: 40px;
-    left: 40px;
+    bottom: 0px;
+    height: 70px;
+    object-fit: contain;
+}
+   #character{
+    
+   left: 40px
+   
+}
+#character2{
+    right:10px;
+    height: 65px;
 }
