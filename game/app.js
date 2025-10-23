@@ -8,7 +8,7 @@ if(event.keyCode===90){
     character1.style.left = left + "px"
     character1.src = " pic/rougewalk.gif"
     character1.style.transform = "scaleX(1)"
-    character1.style.height = '65px'
+    character1.style.height = '150px'
     
 } 
 if(event.keyCode===77){
@@ -26,11 +26,11 @@ if(event.keyCode===16){
     character1.src =" pic/rougefight.gif"
     setTimeout(()=>{
         character1.src = "pic/rougestay.gif"
-            character1.style.height = "65px"
+            character1.style.height = "150px"
  
     },2500)
 
-    character1.style.height = "100px"
+    character1.style.height = "170px"
 }
 if(event.keyCode===37){
 right = right + 10
@@ -52,12 +52,12 @@ setTimeout(()=>{
 if(event.keyCode===38){
             character2.src =" pic/sakura fight.gif"
         character2.style.transform = "scaleX(-1)"
-        character2.style.height = '80px'
+        character2.style.height = '170px'
 
 
 setTimeout(()=>{
                 character2.src =" pic/sakura walkk.gif"
-        character2.style.height = '65px'
+        character2.style.height = '150px'
 
 },1000)
 }
