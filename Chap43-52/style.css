@@ -47,3 +47,126 @@
   button:hover {
     background-color: #5f27cd;
   } */
+   /* qno3 */
+  /* body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #74b9ff, #a29bfe);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    form {
+      background: white;
+      padding: 30px 40px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+      width: 320px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #6c5ce7;
+      margin-bottom: 20px;
+      font-size: 22px;
+      text-transform: capitalize;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 14px;
+      transition: 0.3s;
+    }
+
+    input:focus {
+      border-color: #6c5ce7;
+      box-shadow: 0 0 5px #a29bfe;
+      outline: none;
+    }
+
+    button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      border: none;
+      background-color: #6c5ce7;
+      color: white;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background 0.3s;
+    }
+
+    button:hover {
+      background-color: #5f27cd;
+    }
+
+/* table */
+    body {
+      font-family: Arial, sans-serif;
+      background: #f1f2f6;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 70%;
+      background: white;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: center;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+
+    tr:hover {
+      background-color: #dfe6e9;
+    }
+
+    th {
+      background-color: #6c5ce7;
+      color: white;
+      font-size: 16px;
+      text-transform: uppercase;
+    }
+
+    button {
+      padding: 6px 12px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 14px;
+      color: white;
+    }
+
+    #del {
+      background-color: #d63031;
+    }
+
+    #edit {
+      background-color: #0984e3;
+    }
+
+    #del:hover {
+      background-color: #c0392b;
+    }
+
+    #edit:hover {
+      background-color: #0077b6;
+    } */

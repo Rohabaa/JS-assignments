@@ -6,7 +6,7 @@
 //     console.log (username.value + "" + email.value + "" + pass.value)
 //     ;
    
-// }
+// }-
 // qno2
 // function expandtext(){
 //     var short = " Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, voluptate aliquid. "
@@ -21,3 +21,10 @@
 //     }
 // }
 // qno3
+function deletebut(){
+    var row = document.getElementById("row1")
+        var row = document.getElementById("row2")
+    var row = document.getElementById("row3")
+
+    row.remove()
+}
