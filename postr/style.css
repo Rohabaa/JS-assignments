@@ -6,14 +6,18 @@
   font-family: dancing;
   src: url(./font/DancingScript-SemiBold.ttf);
 }
+@font-face {
+  font-family: roboto;
+  src: url(./font/Roboto_Condensed-SemiBoldItalic.ttf);
+}
 
-body {
-    background-color: #f5f5f5;
-    font-family: "Poppins", sans-serif;
+  .formdiv{
+      background-color: #f5f5f5;
     display: flex; 
     justify-content: center ;
     align-items: center;
-     height: 100vh; 
+     height: 100vh;  
+     /* width: 2000px; */
   }
 
   form {
@@ -72,6 +76,10 @@ body {
     border: 1px solid hsl(0, 5%, 84%);
     border-radius: 5px;
     outline: none;
+     font-family:roboto;
+      font-size: 20px;
+color: #723535;
+
   }
   input:hover{
     background-color: #eff1db;
@@ -80,6 +88,10 @@ body {
   input:focus {
     border-color: #b7b0b0;
     box-shadow: 0 0 3px #000 ;
+     font-family:roboto;
+ color: #723535;
+ font-size: 20px;
+
   }
 
   #signup {
@@ -106,7 +118,7 @@ body {
 }
 .mynav{
   padding: 40px;
-  background-color: #b4b4e9;
+  background-color:#868383;
 }
 .post{
   color: #fff;
@@ -130,6 +142,19 @@ width: 300px;
 height: 130px;
 border-radius: 5px;
     border: 1px solid hsl(0, 5%, 84%);
+     font-family:roboto;
+      font-size: 20px;
+color: #723535;
+
+}
+#about:focus{
+      border-color: #b7b0b0;
+    box-shadow: 0 0 3px #cac3c3 ;
+        background-color: #eff1db;
+outline: none;
+ font-family:roboto;
+ color: #723535;
+ font-size: 20px;
 }
 .text{
   padding: 20px;
@@ -161,11 +186,17 @@ border-radius: 5px;
     transition: 1.5s;
 }
 .maincontent{
-  width: 600px;
-  border: 1px solid black;
+  width: 500px;
+  border: 1px solid rgb(231, 217, 217);
   margin-left: 70px;
   margin-top: 70px;
-}
+ box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  background-color: white;}
 .row{
   width: 900px;
+}
+.postapp{
+  background-color: white;
 }
