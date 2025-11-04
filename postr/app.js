@@ -19,6 +19,7 @@ function createaccount() {
     });
     document.getElementById("signupBox").style.display = "none";
     document.getElementById("postcard").style.display = "block";
+
   } else {
     Swal.fire({
       icon: "error",
