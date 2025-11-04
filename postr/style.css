@@ -26,6 +26,7 @@
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0,0,0,0.3);
     width: 600px;
+    
   }
 
   .form-header {
@@ -132,8 +133,8 @@ color: #723535;
   padding-top: 90px;
 }
 #postinput{
-  width: 100px;
-  height: 30px;
+  width: 150px;
+  height: 32px;
   margin-top: 10px;
 }
 #about{
