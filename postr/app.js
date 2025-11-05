@@ -19,7 +19,7 @@ function createaccount() {
     });
     document.getElementById("signupBox").style.display = "none";
     document.getElementById("postcard").style.display = "block";
-
+ document.body.classList.remove("active");
   } else {
     Swal.fire({
       icon: "error",
@@ -30,20 +30,35 @@ function createaccount() {
 }
 var display = document.getElementById("display")
 function showPostcard(){
+    var email = document.getElementById("email").value;
+     let now = new Date();
+let hours = now.getHours();
+let minutes = now.getMinutes();
+let seconds = now.getSeconds();
+
   var title = document.getElementById("postinput").value
   var description = document.getElementById("about").value
   
+ 
+  
 display.innerHTML+=`
-<div class="card" style="width: 18rem;">
+ <div class="card post2 ">
+ <div class="class-header header1">${email}
+<div> ${hours}:${minutes}:${seconds}</div>
+ </div>
+
   <div class="card-body">
-      <h5 class="card-title">${title}</h5>
-
+    <h5 class="card-title ">${title}</h5>
     <p class="card-text">${description}</p>
-    <button type="button" class="btn btn-outline-danger">Edit</button>
+    <div class="edit"> <button type="button" class="btn  edit1 ">Edit</button>
 
-<button type="button" class="btn btn-outline-secondary">Delete</button>
-
-  </div>
+ <div class="delete"><button type="button" class="btn edit2 ">Delete</button>  </div>
+ 
+    </div>
+ </div>
 </div>
 `
+document.getElementById("postinput").value = ""
+document.getElementById("about").value = ""
+
 }
