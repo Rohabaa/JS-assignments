@@ -261,6 +261,9 @@ input:focus {
 .ed{
   display: flex;
   justify-content: end;
+  margin-top: 10px;
+   margin-bottom: 20px;
+   margin-right: 10px;
 }
 
 .edit1 {
@@ -298,4 +301,9 @@ input:focus {
 }
 .forborder{
   border: 1px solid black;
+}
+.card-body{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
