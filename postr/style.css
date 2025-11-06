@@ -13,14 +13,14 @@
   src: url(./font/Roboto_Condensed-SemiBoldItalic.ttf);
 }
 
-body {
+.active {
  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(135deg, #2b1055, #7597de);
   overflow: hidden;
-  position: relative;}
+  position: relative;
+}
 
   body.active::before {
 
@@ -153,11 +153,10 @@ input:focus {
 }
 
 .post {
-  color: #fff;
+  color: #0a0707;
   font-size: 40px;
   font-weight: 700;
   font-family: dancing;
-
 }
 
 .maincontent {
@@ -259,11 +258,9 @@ input:focus {
 .header1 {
   margin: 10px;
 }
-
-.edit {
+.ed{
   display: flex;
   justify-content: end;
-  margin-right: 10px;
 }
 
 .edit1 {
@@ -273,24 +270,32 @@ input:focus {
 }
 
 .edit1:hover {
-  margin-right: 10px;
   background: #e0c2dc;
   transform: scale(1.1);
   transition: 1.5s;
   border: 1px solid rgba(255, 255, 255, 0.4);
 
 }
+
 .edit2 {
-  margin-right: 10px;
   background: #53ebeb;
   color: black;
 }
 
 .edit2:hover {
-  margin-right: 10px;
   background: #53ebeb;
   transform: scale(1.1);
   transition: 1.5s;
   border: 1px solid rgba(255, 255, 255, 0.4);
 
+}
+.date{
+  margin-left: 10px;
+}
+.images{
+  display: flex;
+  justify-content: space-around;
+}
+.forborder{
+  border: 1px solid black;
 }
