@@ -1,0 +1,7 @@
+.hidden{
+    display: none;
+    border: 1px solid black;
+}
+.zoom{
+    font-size: 30px;
+}

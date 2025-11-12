@@ -10,12 +10,12 @@
 
 <body>
     <!-- qno1 -->
-     <div id="form">
+     <!-- <div id="form">
        <input type="text" id="username" placeholder="Name"> 
         <input type="email" id="email" placeholder="Email">
         <input type="password" id="pass">
         <button type="button" onclick="submit()">Sign Up</button> 
-    </div> 
+    </div>  -->
 
     <!-- qno2 -->
     <!-- <p id="para">
@@ -27,44 +27,44 @@
 </p>
 <a href="JavaScript:void(0)" id="link" onclick="expandtext()">See More</a>
  -->
-    <!-- qno3 -->
-    <!-- <form style="display: none;">
+     <!-- qno3  -->
+    <form style="display: none;">
         <h1>student info</h1>
 
         <input type="text" id="name" placeholder="Name">
         <input type="number" id="age" placeholder="Age">
         <input type="text" id="class" placeholder="Class">
         <input type="email" id="email" placeholder="Email">
-        <button type="button" onclick="getDetails()">Submit</button>
+        <button type="button" onclick="saveEdit()">Submit</button>
     </form>
 
-    <table>
-        <tr id="row1">
+     <table>
+        <tr >
             <td>ayesha</td>
             <td>17</td>
             <td>9</td>
             <td>ayesha@gmail.com</td>
-            <td><button id="del" onclick="deletebut()">Delete</button></td>
-            <td><button id="edit">Edit</button></td>
+            <td><button id="del" onclick="deleteRow(this)">Delete</button></td>
+            <td><button id="edit" onclick="editbut(this)">Edit</button></td>
         </tr>
-        <tr id="row2">
+        <tr >
             <td>maham</td>
             <td>13</td>
             <td>6</td>
             <td>maham@gmail.com</td>
-            <td><button id="del" onclick="deletebut()">Delete</button></td>
-            <td><button id="edit">Edit</button></td>
+            <td><button id="del" onclick="deleteRow(this)">Delete</button></td>
+            <td><button id="edit" onclick="editbut(this)">Edit</button></td>
         </tr>
-        <tr id="row3">
+        <tr>
             <td>fabiha</td>
             <td>15</td>
             <td>6</td>
             <td>fabiha@gmail.com</td>
-            <td><button id="del" onclick="deletebut()">Delete</button></td>
-            <td><button id="edit">Edit</button></td>
+            <td><button id="del" onclick="deleteRow(this)">Delete</button></td>
+            <td><button id="edit"  onclick="editbut(this)">Edit</button></td>
         </tr>
-    </table> -->
-
+    </table> 
+<div id="display"></div>
 
     <script src="app.js"></script>
 </body>
