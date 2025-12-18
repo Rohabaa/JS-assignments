@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="text" placeholder="name" id="name">
+    <input type="address" placeholder="address" id="address">
+    <!-- gender -->
+    <label>
+        <input type="radio" value="male">Male
+    </label>
+    <label>
+        <input type="radio" value="female">Female
+    </label>
+    <!-- educationn -->
+    <select id="education">
+        <option value="">Select Education</option>
+        <option>Matric</option>
+        <option>Intermediate</option>
+        <option>Graduate</option>
+        <option>Master</option>
+    </select>
+    <!-- Profession -->
+    <select id="profession">
+        <option value="">Select Profession</option>
+        <option>Student</option>
+        <option>Teacher</option>
+        <option>Engineer</option>
+        <option>Doctor</option>
+    </select>
+<button onclick="saveRecord()">Save Record</button>
+    <script src="app.js"></script>
+</body>
+
+</html>
